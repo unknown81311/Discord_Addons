@@ -1,6 +1,6 @@
 /**
  * @name BasicBackground+
- * @description Librares: DCP USRBG SettingsModal\nAdded Margins, border-radiuses, background image, and a few animations
+ * @description Librares: DCP USRBG SettingsModal\nAdded Margins, border-radiuses, background image, and a few animations, thanks to _david_#0218 for the code snippet for the background iamge
  * @author Unkknown81311
  * @version 1.0.0
  * @authorId 359174224809689089
@@ -9,18 +9,18 @@
  */
 
 /*library addons*/
-@import url(https://dcp.cyleja1234.repl.co/style.css);
+@import url(https://dcp.cyleja1234.repl.co/style.css);/*get your own https://dcp.cyleja1234.repl.co*/
 @import url(https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/SettingsModal/SettingsModal.css);
 @import url(https://discord-custom-covers.github.io/usrbg/snippets/modals.css);
 @import url(https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css);
 
 /*settings*/
 :root {
-	--background: url("https://i.imgur.com/BDiAT3r.png");
+	--background: url("https://i.imgur.com/BDiAT3r.png");/*iamge background*/
 	--chat-transp: 0.8;
 	--sides-transp: 0.9;
 	--sides-blur: 5px;
-	--S: 10px;
+	--S: 10px;/*margin and border-radius size*/
 	--settingsmodalbackground: transparent;
 	--settingsmodalwidth: 960px;
 	--settingsmodalheight: 80vh;
