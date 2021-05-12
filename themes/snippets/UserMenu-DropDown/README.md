@@ -4,7 +4,7 @@
 ## Import
 
 ```css
-@import url('https://cyleja1234.github.io/BD_Addons/themes/snippets/UserMenu-DropDown.css');
+@import url('https://cyleja1234.github.io/BD_Addons/themes/snippets/UserMenu-DropDown/main.style.css');
 ```
 
 ## installing
