@@ -8,6 +8,6 @@
 ```
 
 ## installing
-1. click [here](https://raw.githubusercontent.com/cyleja1234/BD_Addons/main/themes/snippets/UserMenu-DropDown/main.style.css) and press Ctrl and S then find your library folder. 
+1. click [here](https://cyleja1234.github.io/BD_Addons/themes/snippets/UserMenu-DropDown/main.style.css) and press Ctrl and S then find your library folder. 
     1.  `%appdata%\BetterDiscord\themes`
 2. click save and turn on the theme in BD settings,
