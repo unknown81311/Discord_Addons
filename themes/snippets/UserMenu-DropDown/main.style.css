@@ -1,0 +1,62 @@
+/**
+ * @name UserMenu-DropDown
+ * @description a theme/snippet to add a dropdown menu to the UserMenu.
+ * @author Unknown81311
+ * @version 1.0.0
+ * @authorId 359174224809689089
+ * @source https://github.com/cyleja1234/BD_Addons/tree/main/themes
+ * @updateUrl https://raw.githubusercontent.com/cyleja1234/BD_Addons/main/themes/BasicBackground+.theme.css
+ */
+
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:after{
+    content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2024%2024%22%20width=%2230%22%20height=%2230%22%3E%3Cg%3E%3Cpath%20d=%22M16.59%208.59004L12%2013.17L7.41%208.59004L6%2010L12%2016L18%2010L16.59%208.59004Z%22%20fill=%22%23B8BABD%22/%3E%3C/g%3E%3C/svg%3E");
+    margin-top: 5px;
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover{
+    width:96px !important;
+    transition: 0.3s ease;
+	height: 130px;
+    background-color: var(--background-secondary-alt);
+	border:3px rgba(2, 2, 5,0.25) solid;
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover:after{
+	content: none !important
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5 button{
+    display:none;
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover button{
+    display:block;
+	padding-top:5px !important;
+	
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5{
+    transition: 0.3s ease;
+    width:24px;
+	height: 37px;
+	border-radius: 5px;
+	z-index: 10;
+}
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(1):after{
+	content: "Settings";
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-top: 30px;
+	margin-left: -6px;
+}
+
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(2):after{
+	content: "Deafen";
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-top: 28px;
+	margin-left: -6px;
+}
+
+.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(3):after{
+	content: "Mute";
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-top: 23px;
+	margin-left: 0px;
+}
