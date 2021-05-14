@@ -1,0 +1,23 @@
+/**
+ * @name Search-DropDown
+ * @description a theme/snippet to add a dropdown menu to the search bar.
+ * @author Unknown81311
+ * @version 1.0.0
+ * @authorId 359174224809689089
+ * @website https://github.com/cyleja1234/BD_Addons
+ * @source https://github.com/cyleja1234/BD_Addons/tree/main/themes/snippets/Search-DropDown
+ * @updateUrl https://cyleja1234.github.io/BD_Addons/themes/snippets/Search-DropDown/Search-DropDown.style.css
+ */
+
+.searchBar-3dMhjb:hover,.open-6_Y_aH .searchBar-3dMhjb{
+	width:144px !important;
+	background-color: var(--background-tertiary);
+}
+.searchBar-3dMhjb{
+	width:24px !important;
+	background-color: transparent;
+	transition: .3s ease;
+}
+.searchBar-3dMhjb path{
+	fill: #fff;
+}
