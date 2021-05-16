@@ -1,0 +1,13 @@
+:root {
+	--mention-color:32, 182, 202;/*R G B color*/
+}
+
+.mentioned-xhSam7 .repliedMessage-VokQwo:before{
+    border-color:rgb(var(--mention-color));
+}
+.mentioned-xhSam7,.menu-3sdvDG,.mouse-mode.full-motion .mentioned-xhSam7:hover,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z{
+  background-color:rgba(var(--mention-color),0.1);
+}
+.mentioned-xhSam7:before,.menu-3sdvDG:before{
+  background-color:rgb(var(--mention-color));
+}
