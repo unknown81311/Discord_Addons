@@ -10,54 +10,52 @@
  */
 
 .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:after{
-    content: url('https://cyleja1234.github.io/BD_Addons/assets/arrow.svg');
-    margin-top: 5px;
+     content: url('https://cyleja1234.github.io/BD_Addons/assets/arrow.svg');
+     margin-top: 5px;
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover{
-    width:96px !important;
-    transition: 0.3s ease;
-	height: 130px;
-    background-color: var(--background-secondary-alt);
-	border:3px rgba(2, 2, 5,0.25) solid;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover{
+     width:96px !important;
+     transition: 0.3s ease;
+     height: 130px;
+     background-color: var(--background-secondary-alt);
+     border:3px rgba(2, 2, 5,0.25) solid;
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover:after{
-	content: none !important
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover:after{
+     content: none !important 
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5 button{
-    display:none;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5 button{
+     display:none;
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover button{
-    display:block;
-	padding-top:5px !important;
-	
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover button{
+     display:block;
+     padding-top:5px !important;
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5{
-    transition: 0.3s ease;
-    width:24px;
-	height: 37px;
-	border-radius: 5px;
-	z-index: 10;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5{
+     transition: 0.3s ease;
+     width:24px;
+     height: 37px;
+     border-radius: 5px;
+     z-index: 100;
 }
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(1):after{
-	content: "Settings";
-	display: inline-block;
-	transform: rotate(90deg);
-	margin-top: 30px;
-	margin-left: -6px;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(1):after{
+     content: "Settings";
+     display: inline-block;
+     transform: rotate(90deg);
+     margin-top: 30px;
+     margin-left: -6px;
 }
-
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(2):after{
-	content: "Deafen";
-	display: inline-block;
-	transform: rotate(90deg);
-	margin-top: 28px;
-	margin-left: -6px;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(2):after{
+     content: "Deafen";
+     display: inline-block;
+     transform: rotate(90deg);
+     margin-top: 28px;
+     margin-left: -6px;
 }
-
-.container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(3):after{
-	content: "Mute";
-	display: inline-block;
-	transform: rotate(90deg);
-	margin-top: 23px;
-	margin-left: 0px;
+ .container-3baos1>.nameTag-3uD-yy+.flex-1xMQg5:hover > button:nth-last-child(3):after{
+     content: "Mute";
+     display: inline-block;
+     transform: rotate(90deg);
+     margin-top: 23px;
+     margin-left: 0px;
 }
+ 
