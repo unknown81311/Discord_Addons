@@ -4,7 +4,7 @@
 ## Import
 
 ```css
-@import url('https://cyleja1234.github.io/BD_Addons/themes/snippets/Custom-mention-color/cmc.theme.css');/*needs to be at top*/
+@import url('https://unknown81311.github.io/BD_Addons/themes/snippets/Custom-mention-color/cmc.theme.css');/*needs to be at top*/
 
 :root {
 	--mention-color:32, 182, 202;/*needs to be in :root but cna be anywhere in :root.*/
@@ -12,6 +12,6 @@
 ```
 
 ## installing
-1. click [here](https://cyleja1234.github.io/BD_Addons/themes/snippets/Custom-mention-color/cmc.theme.css) and press Ctrl and S then find your library folder. 
+1. click [here](https://unknown81311.github.io/BD_Addons/themes/snippets/Custom-mention-color/cmc.theme.css) and press Ctrl and S then find your library folder. 
     1.  `%appdata%\BetterDiscord\themes`
 2. click save and turn on the theme in BD settings,
