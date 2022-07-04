@@ -19,16 +19,14 @@ return new class {
   }
   onStoped() { this.noPridePatch() }
 }
-}else if(window.BdApi){
-  module.exports = class noPride {
-    load() {this.currentDate = new Date();}
-    start() {
-      this.noPridePatch = BdApi.Patcher.after('noPride', BdApi.findModuleByProps('getGuildIconURL'), 'getGuildIconURL', (that, args, res) => {
-      let r=res
-      if (this.currentDate.getMonth()+1 != 6)r=BdApi.setData("noMorePride",args[0].id,r)
-      if (this.currentDate.getMonth()+1 == 6)r=BdApi.getData("noMorePride",args[0].id,r)
-      return r
-    })} 
-    stop() {this.noPridePatch()} 
-}
+module.exports = class noPride {
+  load() {this.currentDate = new Date();}
+  start() {
+    this.noPridePatch = BdApi.Patcher.after('noPride', BdApi.findModuleByProps('getGuildIconURL'), 'getGuildIconURL', (that, args, res) => {
+    let r=res
+    if (this.currentDate.getMonth()+1 != 6)r=BdApi.setData("noMorePride",args[0].id,r)
+    if (this.currentDate.getMonth()+1 == 6)r=BdApi.getData("noMorePride",args[0].id,r)
+    return r
+  })} 
+  stop() {this.noPridePatch()} 
 }
