@@ -6,18 +6,19 @@
  */
 
 if (window.DrApi){
-return new class {
-  onLoad() { this.currentDate = new Date(); }
-  onStart() {
-    // console.log(this.currentDate.getMonth()+1)
-    this.noPridePatch = DrApi.Patcher.after('noPride', DrApi.webpack.getModuleByProps('getGuildIconURL'), 'getGuildIconURL', (that, args, res) => {
-      let r=res
-      if (this.currentDate.getMonth()+1 != 6)r=DrApi.storage.setData("noMorePride",args[0].id,r)
-      if (this.currentDate.getMonth()+1 == 6)r=DrApi.storage.getData("noMorePride",args[0].id,r)
-      return r
-    })
+  return new class {
+    onLoad() { this.currentDate = new Date(); }
+    onStart() {
+      // console.log(this.currentDate.getMonth()+1)
+      this.noPridePatch = DrApi.Patcher.after('noPride', DrApi.webpack.getModuleByProps('getGuildIconURL'), 'getGuildIconURL', (that, args, res) => {
+        let r=res
+        if (this.currentDate.getMonth()+1 != 6)r=DrApi.storage.setData("noMorePride",args[0].id,r)
+        if (this.currentDate.getMonth()+1 == 6)r=DrApi.storage.getData("noMorePride",args[0].id,r)
+        return r
+      })
+    }
+    onStoped() { this.noPridePatch() }
   }
-  onStoped() { this.noPridePatch() }
 }
 module.exports = class noPride {
   load() {this.currentDate = new Date();}
